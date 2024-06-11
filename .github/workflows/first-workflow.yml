@@ -1,10 +1,10 @@
 name: First Workflow
 
-# Este flujo de trabajo se ejecuta manualmente y cuando se crea un issue
+# Este flujo de trabajo se ejecuta manualmente
 on:
-  workflow_dispatch:
   issues:
     types: [opened]
+    workflow_dispatch:
 
 jobs:
   job1:
