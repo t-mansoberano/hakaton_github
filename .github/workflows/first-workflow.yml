@@ -1,0 +1,16 @@
+name: First Workflow
+
+# Este flujo de trabajo se ejecuta manualmente
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step 1
+        run: echo step1
+
+      - name: Step 2
+        run: echo step2
