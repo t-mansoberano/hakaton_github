@@ -20,6 +20,6 @@ jobs:
 
     steps:
       - name: Cowsay Step
-        uses: piuccio/cowsay
+        uses: mscoutermarsh/cowsays-action@master
         with:
           message: "Hello from job2!"
