@@ -20,6 +20,6 @@ jobs:
 
     steps:
       - name: Cowsay Step
-        uses: peter-evans/cowsay@v1
+        uses: docker://docker/whalesay:latest
         with:
-          message: "Hello from job2!"
+          args: "Hello from job2!"
